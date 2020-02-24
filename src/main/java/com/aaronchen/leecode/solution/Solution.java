@@ -1,5 +1,7 @@
 package com.aaronchen.leecode.solution;
 
+import com.aaronchen.leecode.addtwonumbers.ListNode;
+
 /**
  * @Author: Aaron chen
  * @Date: 2020/2/24 0:22
@@ -36,6 +38,16 @@ public abstract class Solution {
      * @return
      */
     public String longestCommonPrefix(String[] strs) {
+        return null;
+    }
+
+    /**
+     * 合并两个有序链表
+     * @param l1
+     * @param l2
+     * @return
+     */
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         return null;
     }
 }
