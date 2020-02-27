@@ -50,4 +50,33 @@ public abstract class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         return null;
     }
+
+    /**
+     * 删除排序数组中的重复项
+     * @param nums
+     * @return
+     */
+    public int removeDuplicates(int[] nums) {
+        return 0;
+    }
+
+    /**
+     * 移除元素
+     * @param nums
+     * @param val
+     * @return
+     */
+    public int removeElement(int[] nums, int val) {
+        return 0;
+    }
+
+    /**
+     * 实现 strStr() 函数
+     * @param haystack
+     * @param needle
+     * @return
+     */
+    public int strStr(String haystack, String needle) {
+        return 0;
+    }
 }
