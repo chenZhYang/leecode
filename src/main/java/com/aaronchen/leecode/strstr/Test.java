@@ -7,7 +7,8 @@ package com.aaronchen.leecode.strstr;
 public class Test {
     public static void main(String[] args) {
         ISolution iSolution = new ISolution();
-        int i = iSolution.strStr("abxbcadfs","bca");
+        int i = iSolution.strStr("sdfssabcabx","abcabx");
+        System.out.println();
         System.out.println(i);
     }
 }

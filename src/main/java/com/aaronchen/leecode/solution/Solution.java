@@ -79,4 +79,14 @@ public abstract class Solution {
     public int strStr(String haystack, String needle) {
         return 0;
     }
+
+    /**
+     * 搜索插入位置
+     * @param nums
+     * @param target
+     * @return
+     */
+    public int searchInsert(int[] nums, int target) {
+        return 0;
+    }
 }
