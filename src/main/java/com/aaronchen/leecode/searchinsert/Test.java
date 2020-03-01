@@ -6,9 +6,9 @@ package com.aaronchen.leecode.searchinsert;
  */
 public class Test {
     public static void main(String[] args) {
-        SolutionO solutionO = new SolutionO();
+        ISolution iSolution = new ISolution();
         int[] nums = {1,3,5,7};
-        int i = solutionO.searchInsert(nums,6);
+        int i = iSolution.searchInsert(nums,6);
         System.out.println(i);
     }
 }
