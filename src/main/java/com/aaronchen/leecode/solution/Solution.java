@@ -89,4 +89,13 @@ public abstract class Solution {
     public int searchInsert(int[] nums, int target) {
         return 0;
     }
+
+    /**
+     * 反转链表
+     * @param head
+     * @return 返回反转后的链表
+     */
+    public ListNode reverseList(ListNode head) {
+        return null;
+    }
 }
