@@ -98,4 +98,14 @@ public abstract class Solution {
     public ListNode reverseList(ListNode head) {
         return null;
     }
+
+    /**
+     * 合并排序数组
+     * @param A
+     * @param m
+     * @param B
+     * @param n
+     */
+    public void mergeArray(int[] A, int m, int[] B, int n) {
+    }
 }
