@@ -108,4 +108,13 @@ public abstract class Solution {
      */
     public void mergeArray(int[] A, int m, int[] B, int n) {
     }
+
+    /**
+     * 腐烂的橘子
+     * @param grid
+     * @return
+     */
+    public int orangesRotting(int[][] grid) {
+        return 0;
+    }
 }
