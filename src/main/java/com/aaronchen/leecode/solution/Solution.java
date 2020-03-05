@@ -117,4 +117,14 @@ public abstract class Solution {
     public int orangesRotting(int[][] grid) {
         return 0;
     }
+
+    /**
+     * 分糖果 II
+     * @param candies
+     * @param num_people
+     * @return
+     */
+    public int[] distributeCandies(int candies, int num_people) {
+        return null;
+    }
 }
