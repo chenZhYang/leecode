@@ -127,4 +127,13 @@ public abstract class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         return null;
     }
+
+    /**
+     * 和为s的连续正数序列
+     * @param target
+     * @return
+     */
+    public int[][] findContinuousSequence(int target) {
+        return null;
+    }
 }
