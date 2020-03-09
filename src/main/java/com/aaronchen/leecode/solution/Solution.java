@@ -136,4 +136,23 @@ public abstract class Solution {
     public int[][] findContinuousSequence(int target) {
         return null;
     }
+
+    /**
+     *
+     * @param prices
+     * @return
+     */
+    public int maxProfit(int[] prices) {
+        return 0;
+    }
+
+    /**
+     * 零钱兑换
+     * @param coins
+     * @param amount
+     * @return
+     */
+    public int coinChange(int[] coins, int amount) {
+        return 0;
+    }
 }
