@@ -1,6 +1,7 @@
 package com.aaronchen.leecode.solution;
 
 import com.aaronchen.leecode.addtwonumbers.ListNode;
+import com.aaronchen.leecode.diameterofbinarytree.TreeNode;
 
 /**
  * @Author: Aaron chen
@@ -153,6 +154,15 @@ public abstract class Solution {
      * @return
      */
     public int coinChange(int[] coins, int amount) {
+        return 0;
+    }
+
+    /**
+     * 二叉树的直径
+     * @param root
+     * @return
+     */
+    public int diameterOfBinaryTree(TreeNode root) {
         return 0;
     }
 }
