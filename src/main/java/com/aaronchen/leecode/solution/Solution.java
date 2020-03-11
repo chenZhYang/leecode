@@ -165,4 +165,13 @@ public abstract class Solution {
     public int diameterOfBinaryTree(TreeNode root) {
         return 0;
     }
+
+    /**
+     * 将数组分成和相等的三个部分
+     * @param A
+     * @return
+     */
+    public boolean canThreePartsEqualSum(int[] A) {
+        return true;
+    }
 }
