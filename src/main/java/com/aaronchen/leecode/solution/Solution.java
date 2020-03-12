@@ -174,4 +174,14 @@ public abstract class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         return true;
     }
+
+    /**
+     * 字符串的最大公因子
+     * @param str1
+     * @param str2
+     * @return
+     */
+    public String gcdOfStrings(String str1, String str2) {
+        return null;
+    }
 }
