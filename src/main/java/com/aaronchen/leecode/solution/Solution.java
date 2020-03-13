@@ -184,4 +184,22 @@ public abstract class Solution {
     public String gcdOfStrings(String str1, String str2) {
         return null;
     }
+
+    /**
+     * 多数元素
+     * @param nums
+     * @return
+     */
+    public int majorityElement(int[] nums) {
+        return 0;
+    }
+
+    /**
+     * 外观数列
+     * @param n
+     * @return
+     */
+    public String countAndSay(int n) {
+        return null;
+    }
 }
