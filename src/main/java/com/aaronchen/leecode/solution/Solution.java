@@ -202,4 +202,22 @@ public abstract class Solution {
     public String countAndSay(int n) {
         return null;
     }
+
+    /**
+     * 最长上升子序列
+     * @param nums
+     * @return
+     */
+    public int lengthOfLIS(int[] nums) {
+        return 0;
+    }
+
+    /**
+     * 岛屿的最大面积
+     * @param grid
+     * @return
+     */
+    public int maxAreaOfIsland(int[][] grid) {
+        return 0;
+    }
 }
