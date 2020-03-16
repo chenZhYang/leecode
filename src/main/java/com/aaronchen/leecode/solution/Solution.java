@@ -220,4 +220,22 @@ public abstract class Solution {
     public int maxAreaOfIsland(int[][] grid) {
         return 0;
     }
+
+    /**
+     * 字符串压缩
+     * @param S
+     * @return
+     */
+    public String compressString(String S) {
+        return null;
+    }
+
+    /**
+     * 最大子序和
+     * @param nums
+     * @return
+     */
+    public int maxSubArray(int[] nums) {
+        return 0;
+    }
 }
