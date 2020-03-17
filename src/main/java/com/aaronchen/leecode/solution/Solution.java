@@ -238,4 +238,14 @@ public abstract class Solution {
     public int maxSubArray(int[] nums) {
         return 0;
     }
+
+    /**
+     * 拼写单词
+     * @param words
+     * @param chars
+     * @return
+     */
+    public int countCharacters(String[] words, String chars) {
+        return 0;
+    }
 }
