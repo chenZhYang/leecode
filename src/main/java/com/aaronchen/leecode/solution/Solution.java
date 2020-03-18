@@ -248,4 +248,14 @@ public abstract class Solution {
     public int countCharacters(String[] words, String chars) {
         return 0;
     }
+
+    /**
+     * 矩形重叠
+     * @param rec1
+     * @param rec2
+     * @return
+     */
+    public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
+        return true;
+    }
 }
