@@ -258,4 +258,13 @@ public abstract class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         return true;
     }
+
+    /**
+     * 最长回文串
+     * @param s
+     * @return
+     */
+    public int longestPalindrome(String s) {
+        return 0;
+    }
 }
