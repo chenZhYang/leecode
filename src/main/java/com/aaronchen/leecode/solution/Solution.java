@@ -267,4 +267,14 @@ public abstract class Solution {
     public int longestPalindrome(String s) {
         return 0;
     }
+
+    /**
+     * 最小的k个数
+     * @param arr
+     * @param k
+     * @return
+     */
+    public int[] getLeastNumbers(int[] arr, int k) {
+        return null;
+    }
 }
