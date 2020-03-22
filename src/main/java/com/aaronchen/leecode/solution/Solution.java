@@ -277,4 +277,13 @@ public abstract class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         return null;
     }
+
+    /**
+     * 使数组唯一的最小增量
+     * @param A
+     * @return
+     */
+    public int minIncrementForUnique(int[] A) {
+        return 0;
+    }
 }
