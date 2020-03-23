@@ -286,4 +286,13 @@ public abstract class Solution {
     public int minIncrementForUnique(int[] A) {
         return 0;
     }
+
+    /**
+     * 链表的中间结点
+     * @param head
+     * @return
+     */
+    public ListNode middleNode(ListNode head) {
+        return null;
+    }
 }
