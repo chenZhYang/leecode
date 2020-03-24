@@ -295,4 +295,13 @@ public abstract class Solution {
     public ListNode middleNode(ListNode head) {
         return null;
     }
+
+    /**
+     * 按摩师
+     * @param nums
+     * @return
+     */
+    public int massage(int[] nums) {
+        return 0;
+    }
 }
