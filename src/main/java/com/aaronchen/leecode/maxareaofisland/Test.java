@@ -9,7 +9,7 @@ import com.aaronchen.leecode.solution.Solution;
 public class Test {
 
     public static void main(String[] args) {
-        Solution solution = new SolutionA();
+        Solution solution = new ISolution();
         int[][] nums = {{1,1,1,1,1,1,1,1,1,1,1,1,1},
                         {1,1,1,1,1,1,1,1,1,1,1,1,1},
                         {1,1,1,1,1,1,1,1,1,1,1,1,1},
