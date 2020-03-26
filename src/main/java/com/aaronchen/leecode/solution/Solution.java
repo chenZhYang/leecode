@@ -304,4 +304,22 @@ public abstract class Solution {
     public int massage(int[] nums) {
         return 0;
     }
+
+    /**
+     * 三维形体的表面积
+     * @param grid
+     * @return
+     */
+    public int surfaceArea(int[][] grid) {
+        return 0;
+    }
+
+    /**
+     * 车的可用捕获量
+     * @param board
+     * @return
+     */
+    public int numRookCaptures(char[][] board) {
+        return 0;
+    }
 }
