@@ -322,4 +322,13 @@ public abstract class Solution {
     public int numRookCaptures(char[][] board) {
         return 0;
     }
+
+    /**
+     * 卡牌分组
+     * @param deck
+     * @return
+     */
+    public boolean hasGroupsSizeX(int[] deck) {
+        return false;
+    }
 }
