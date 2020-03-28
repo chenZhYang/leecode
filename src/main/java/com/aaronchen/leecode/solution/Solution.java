@@ -331,4 +331,13 @@ public abstract class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         return false;
     }
+
+    /**
+     * 单词的压缩编码
+     * @param words
+     * @return
+     */
+    public int minimumLengthEncoding(String[] words) {
+        return 0;
+    }
 }
