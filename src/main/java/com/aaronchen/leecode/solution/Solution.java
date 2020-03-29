@@ -340,4 +340,13 @@ public abstract class Solution {
     public int minimumLengthEncoding(String[] words) {
         return 0;
     }
+
+    /**
+     * 地图分析
+     * @param grid
+     * @return
+     */
+    public int maxDistance(int[][] grid) {
+        return 0;
+    }
 }
