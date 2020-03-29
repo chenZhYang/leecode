@@ -8,6 +8,7 @@ import java.util.Queue;
 /**
  * @Author: Aaron chen
  * @Date: 2020/3/29 21:09
+ * 其他优解
  */
 public class SolutionA extends Solution {
 
@@ -45,10 +46,11 @@ public class SolutionA extends Solution {
                 }
                 //修改海洋坐标的值，以免重复遍历,同时该值为曼哈顿距离（也就是每个坐标上下左右位移都会加1）
                 grid[tx][ty] = grid[x][y] + 1;
+                //将改坐标放进队列，以便下次再次遍历
                 queue.offer(new int[]{tx,ty});
             }
         }
-        // 返回最后一次遍历到的海洋的距离。
+        // 此时遍历完最后一个队列坐标的值减去1就是离陆地最远的海洋距离
         return grid[point[0]][point[1]] - 1;
     }
 }
