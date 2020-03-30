@@ -349,4 +349,14 @@ public abstract class Solution {
     public int maxDistance(int[][] grid) {
         return 0;
     }
+
+    /**
+     * 圆圈中最后剩下的数字
+     * @param n
+     * @param m
+     * @return
+     */
+    public int lastRemaining(int n, int m) {
+        return 0;
+    }
 }
