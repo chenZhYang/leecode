@@ -359,4 +359,13 @@ public abstract class Solution {
     public int lastRemaining(int n, int m) {
         return 0;
     }
+
+    /**
+     * 排序数组
+     * @param nums
+     * @return
+     */
+    public int[] sortArray(int[] nums) {
+        return nums;
+    }
 }
