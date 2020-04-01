@@ -368,4 +368,13 @@ public abstract class Solution {
     public int[] sortArray(int[] nums) {
         return nums;
     }
+
+    /**
+     * 有效括号的嵌套深度
+     * @param seq
+     * @return
+     */
+    public int[] maxDepthAfterSplit(String seq) {
+        return null;
+    }
 }
