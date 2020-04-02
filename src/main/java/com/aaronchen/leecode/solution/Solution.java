@@ -377,4 +377,13 @@ public abstract class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         return null;
     }
+
+    /**
+     * 生命游戏
+     * @param board
+     * @return
+     */
+    public int[][] gameOfLife(int[][] board) {
+        return null;
+    }
 }
