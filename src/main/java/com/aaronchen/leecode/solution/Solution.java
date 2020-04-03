@@ -386,4 +386,13 @@ public abstract class Solution {
     public int[][] gameOfLife(int[][] board) {
         return null;
     }
+
+    /**
+     * 字符串转换整数 (atoi)
+     * @param str
+     * @return
+     */
+    public int myAtoi(String str) {
+        return 0;
+    }
 }
