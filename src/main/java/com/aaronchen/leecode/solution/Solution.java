@@ -395,4 +395,13 @@ public abstract class Solution {
     public int myAtoi(String str) {
         return 0;
     }
+
+    /**
+     * 接雨水
+     * @param height
+     * @return
+     */
+    public int trap(int[] height) {
+        return 0;
+    }
 }
