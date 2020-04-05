@@ -404,4 +404,13 @@ public abstract class Solution {
     public int trap(int[] height) {
         return 0;
     }
+
+    /**
+     * 最后一个单词的长度
+     * @param s
+     * @return
+     */
+    public int lengthOfLastWord(String s) {
+        return 0;
+    }
 }
