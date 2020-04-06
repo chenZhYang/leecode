@@ -413,4 +413,23 @@ public abstract class Solution {
     public int lengthOfLastWord(String s) {
         return 0;
     }
+
+    /**
+     * 编辑距离
+     * @param word1
+     * @param word2
+     * @return
+     */
+    public int minDistance(String word1, String word2){
+        return 0;
+    }
+
+    /**
+     * 加一
+     * @param digits
+     * @return
+     */
+    public int[] plusOne(int[] digits) {
+        return null;
+    }
 }
