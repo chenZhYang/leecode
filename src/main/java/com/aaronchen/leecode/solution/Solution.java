@@ -432,4 +432,21 @@ public abstract class Solution {
     public int[] plusOne(int[] digits) {
         return null;
     }
+
+    /**
+     * 旋转矩阵
+     * @param matrix
+     */
+    public void rotate(int[][] matrix) {}
+
+    /**
+     * 机器人的运动范围
+     * @param m
+     * @param n
+     * @param k
+     * @return
+     */
+    public int movingCount(int m, int n, int k) {
+        return 0;
+    }
 }
