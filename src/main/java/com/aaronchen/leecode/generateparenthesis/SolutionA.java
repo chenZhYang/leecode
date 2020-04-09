@@ -8,6 +8,16 @@ import java.util.List;
 /**
  * @Author: Aaron chen
  * @Date: 2020/4/9 23:03
+ * 深度遍历DFS+剪枝。
+ * 原理1：左括号永远是第一个；
+ * 原理2：右括号插入的时候剩余数量永远应该比左括号剩余数量多；
+ * 原理3：左右括号总数最终等于有效括号总数
+ *
+ * 使用深度遍历技巧：
+ * 第一步：明确递归参数
+ * 第二步：明确递归终止条件
+ * 第三步：明确递归函数中的内容
+ * 第四步：明确回溯返回值
  */
 public class SolutionA extends Solution {
     List<String> list = null;
