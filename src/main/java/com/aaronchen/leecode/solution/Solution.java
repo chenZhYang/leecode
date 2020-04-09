@@ -3,6 +3,8 @@ package com.aaronchen.leecode.solution;
 import com.aaronchen.leecode.addtwonumbers.ListNode;
 import com.aaronchen.leecode.diameterofbinarytree.TreeNode;
 
+import java.util.List;
+
 /**
  * @Author: Aaron chen
  * @Date: 2020/2/24 0:22
@@ -448,5 +450,14 @@ public abstract class Solution {
      */
     public int movingCount(int m, int n, int k) {
         return 0;
+    }
+
+    /**
+     * 括号生成
+     * @param n
+     * @return
+     */
+    public List<String> generateParenthesis(int n) {
+        return null;
     }
 }
