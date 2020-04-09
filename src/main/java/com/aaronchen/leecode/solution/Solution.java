@@ -460,4 +460,14 @@ public abstract class Solution {
     public List<String> generateParenthesis(int n) {
         return null;
     }
+
+    /**
+     * 二进制求和
+     * @param a
+     * @param b
+     * @return
+     */
+    public String addBinary(String a, String b) {
+        return null;
+    }
 }
