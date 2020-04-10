@@ -470,4 +470,13 @@ public abstract class Solution {
     public String addBinary(String a, String b) {
         return null;
     }
+
+    /**
+     * 翻转字符串里的单词
+     * @param s
+     * @return
+     */
+    public String reverseWords(String s) {
+        return null;
+    }
 }
