@@ -3,6 +3,7 @@ package com.aaronchen.leecode.sortarray;
 import com.aaronchen.leecode.solution.Solution;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 /**
  * @Author: Aaron chen
@@ -271,27 +272,93 @@ public class ISolution extends Solution {
     /**
      快速排序
      **/
-    void qSort(int[] arr,int s,int e){
-        int l = s, r = e;
-        if(l < r){
-            int temp = arr[l];
-            while(l < r){
-                while(l < r && arr[r] >= temp){
-                    r--;
+    void qSort(int[] arr,int start,int end){
+        int left = start, right = end;
+        if(left < right){
+            int temp = arr[left];
+            while(left < right){
+                while(left < right && arr[right] >= temp){
+                    right--;
                 }
-                if(l < r){
-                    arr[l] = arr[r];
+                if(left < right){
+                    arr[left] = arr[right];
                 }
-                while(l < r && arr[l] < temp){
-                    l++;
+                while(left < right && arr[left] < temp){
+                    left++;
                 }
-                if(l < r){
-                    arr[r] = arr[l];
+                if(left < right){
+                    arr[right] = arr[left];
                 }
             }
-            arr[l] = temp;
-            qSort(arr,s,l);
-            qSort(arr,l + 1, e);
+            arr[left] = temp;
+            qSort(arr,start,left);
+            qSort(arr,left + 1, end);
         }
     }
+
+    /**
+     * 非递归
+     */
+    public void qSort2(int[] a, int left, int right) {
+        int pivot;
+        if (left >= right){
+            return;
+        }
+        Stack<Integer> stack = new Stack<Integer>();
+        stack.push(left);
+        stack.push(right);
+        while (!stack.empty()) {
+            // 先弹出high,再弹出low
+            right = stack.pop();
+            left = stack.pop();
+            pivot = partition(a, left, right);
+            // 先压low,再压high
+            if (left < pivot - 1) {
+                stack.push(left);
+                stack.push(pivot - 1);
+            }
+            if (pivot + 1 < right) {
+                stack.push(pivot + 1);
+                stack.push(right);
+            }
+        }
+    }
+
+    /**
+     * 对数组a中下标从low到high的元素，选取基准元素pivotKey，
+     * 根据与基准比较的大小，将各个元素排到基准元素的两端。
+     * 返回值为最后基准元素的位置
+     */
+    public int partition(int[] a, int left, int right) {
+        // 三数取中,将中间元素放在第一个位置
+//        if (a[low] > a[high]){
+//            swap(a, low, high);
+//        }
+//        if (a[(low + high) / 2] > a[high]){
+//            swap(a, (low + high) / 2, high);
+//        }
+//        if (a[low] < a[(low + high) / 2]){
+//            swap(a, (low + high) / 2, low);
+//        }
+        //以上上面三步可有可无
+        // 用第一个元素作为基准元素
+        int pivotKey = a[left];
+        // 两侧交替向中间扫描
+        while (left < right) {
+            while (left < right && a[right] >= pivotKey){
+                right--;
+            }
+            a[left] = a[right];
+            // swap(a, low, high); //比基准小的元素放到低端
+            while (left < right && a[left] <= pivotKey){
+                left++;
+            }
+            a[right] = a[left];
+        }
+        // 在中间位置放回基准值
+        a[left] = pivotKey;
+        // 返回基准元素所在位置
+        return left;
+    }
+
 }

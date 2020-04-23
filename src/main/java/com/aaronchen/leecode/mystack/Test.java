@@ -11,12 +11,14 @@ public class Test {
         obj.push(2);
         obj.push(3);
         int param_1 = obj.pop();
-        int param_2 = obj.pop();
         int param_3 = obj.top();
+        int param_2 = obj.pop();
+        int param_5 = obj.pop();
         boolean param_4 = obj.empty();
         System.out.println("param_1 = "+param_1);
         System.out.println("param_2 = "+param_2);
         System.out.println("param_3 = "+param_3);
         System.out.println("param_4 = "+param_4);
+        System.out.println("param_5 = "+param_5);
     }
 }

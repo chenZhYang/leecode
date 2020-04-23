@@ -479,4 +479,31 @@ public abstract class Solution {
     public String reverseWords(String s) {
         return null;
     }
+
+    /**
+     * x 的平方根
+     * @param x
+     * @return
+     */
+    public int mySqrt(int x) {
+        return 0;
+    }
+
+    /**
+     * 爬楼梯
+     * @param n
+     * @return
+     */
+    public int climbStairs(int n) {
+        return 0;
+    }
+
+    /**
+     * 删除排序链表中的重复元素
+     * @param head
+     * @return
+     */
+    public ListNode deleteDuplicates(ListNode head) {
+        return null;
+    }
 }
